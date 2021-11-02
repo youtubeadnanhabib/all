@@ -1,0 +1,213 @@
+
+  Customize CSS 
+  Version: 0.1
+  Created By: Habibur
+*/
+body{
+    background: #252525;
+}
+
+/* ====================
+Top Section Main Start
+==================== */
+section#mainSection {
+    background: #252525;
+    min-height: 350px;
+    border-bottom: 4px solid #00f411;
+}
+p{
+    color: #FFF;
+}
+.myColor{
+    color: #00F800;
+}
+ul.nav.flex-column.customsidebar{
+    margin-top: 35px;
+}
+ul.nav.flex-column.customsidebar li {
+    padding: 8px 0;
+}
+ul.nav.flex-column.customsidebar li a,.h-btn{
+    background: #14A10E;
+    text-align: center;
+    color: white;
+    border: 4px solid #00F411;
+    border-radius: 25px;
+    padding: 10px;
+}
+
+/*scrollable nav */
+ul.nav.flex-column.customsidebar {
+    height: 340px;
+    display: grid;
+    overflow: hidden;
+    overflow-y: scroll;
+}
+/*scrollable nav end*/
+
+
+.h-btn {
+    width: 220px;
+    font-size: 16px;
+    margin-top: 23%;
+    color: #FFF;
+    padding: 5px 0px;
+}
+.nav-item.btn.btn-sm {
+    color: #FFF;
+}
+.lastElementsContent {
+  min-height: 445px;
+  background: #3E5245;
+  padding: 10px;
+  margin: 0px 10px 0px 20px;
+}
+.lastElementsContent p {
+  text-align: center;
+  color: #00F411;
+}
+.btn-customize {
+  color: #41FB00;
+  border: 3px solid #41FB00;
+  padding: 3px !important;
+  font-size: 15px !important;
+  margin-left: 10px;
+  background: #494D49;
+  font-weight: 600;
+}
+.Logistic {
+  background: #605A5B;
+  padding: 5px 0px;
+}
+.btn.btn-sm.btn-customize:hover {
+  color: #FFF;
+}
+/* Source */
+.mycl {
+  position: relative;
+  display: flex;
+}
+.STATA {
+  position: absolute;
+  width: 97%;
+  bottom: 20px;
+}
+
+button.mbtn {
+    width: 100%;
+    margin-top: 20px;
+}
+
+.customCommand {
+    height: 160px;
+    background: #3f3f3f;
+}
+
+.btn-customize-h {
+    border: 5px solid #41fb00;
+    color: #41fb00;
+    font-weight: 700;
+    font-family: sans-serif;
+}
+.btn-customize-h:hover{
+    color: #43e30c;
+}
+/* ===================
+Top Section Main End
+==================== */
+
+
+/* =======================
+   Command & Results Start
+======================= */
+section#CommandResults {
+    background: #252525;
+    padding-bottom: 30px;
+}
+
+.commandResultsBox {
+    background: #3F3F3F;
+    min-height: 160px;
+}
+
+
+.commandHistoryBar{
+    margin-top: 5px;
+    height: 166px;
+    display: grid;
+    overflow: hidden;
+    overflow-y: scroll;
+}
+.commandHistoryBar li {
+    padding: 0;
+}
+.commandHistoryBar li a,.h-btn{
+    background: #14A10E;
+    text-align: center;
+    color: white;
+    border: 4px solid #00F411;
+    border-radius: 25px;
+    padding: 1px;
+}
+.commandHistory p {
+    margin-bottom: 0 !important;
+}
+
+/* =======================
+   Command & Results Start
+======================= */
+
+
+
+/*
+=============
+ MEDIA QUERY
+=============
+*/
+
+@media(max-width: 588px){
+    .h-btn {
+    margin: 90px 0px 120px 0;
+}
+}
+
+/*
+=============
+ End QUERY
+=============
+
+
+
+
+/*overlay*/
+#overlay{   
+  position: fixed;
+  top: 0;
+  z-index: 100;
+  width: 100%;
+  height:100%;
+  display: none;
+  background: rgba(0,0,0,0.6);
+}
+.cv-spinner {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;  
+}
+.spinner {
+  width: 40px;
+  height: 40px;
+  border: 4px #ddd solid;
+  border-top: 4px #2e93e6 solid;
+  border-radius: 50%;
+  animation: sp-anime 0.8s infinite linear;
+}
+@keyframes sp-anime {
+  100% { 
+    transform: rotate(360deg); 
+  }
+}
+.is-hide{
+  display:none;
+}
