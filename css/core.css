@@ -1,4 +1,4 @@
-
+/*
   Customize CSS 
   Version: 0.1
   Created By: Habibur
@@ -133,7 +133,7 @@ section#CommandResults {
 
 .commandHistoryBar{
     margin-top: 5px;
-    height: 166px;
+    max-height: 166px;
     display: grid;
     overflow: hidden;
     overflow-y: scroll;
